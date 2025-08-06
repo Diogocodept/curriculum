@@ -1,0 +1,375 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-color: #f0f0f0;
+    color: black;
+    padding: 20px;
+}
+
+h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+
+}
+
+h3{
+    font-size: 1.4rem;
+    color: #007bff;
+}
+
+h4, a{
+    font-size: 1.2rem;
+    color: #444;
+}
+
+h5{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+/*
+Menu Topo
+*/
+
+.cabecalho h1{
+    margin-bottom: 0;
+}
+
+.cabecalho h3{
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.contatos h4,
+.portefolio h4,
+.localizacao{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.dadosPessoais{
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    padding-right: 300px;
+}
+
+.dadosPessoais a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.dadosPessoais a:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+
+.dadosPessoais h4{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.dadosPessoais h4 img{
+    width: 13px;
+}
+
+/*
+Secções do curriculum
+*/
+
+.ladoEsquerdo h2,
+.ladoDireito h2{
+    border-bottom: 3px solid #000000;
+}
+
+/*
+Educação
+*/
+
+.educacao{
+    padding-top: 20px;
+}
+
+.educacao h3{
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.educacao .nomeCurso{
+    color: #007bff;
+    margin: 0;
+}
+
+.educacao .curso p{
+    margin-top: 0;
+}
+
+.curso{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-right: 100px;
+}
+
+.curso img{
+    width: 15px;
+}
+
+.educacao h5{
+    margin-top: 0;
+    margin-left: 25px;
+    margin-bottom: 0;
+    color: #27ae60;
+}
+
+.miniCurso p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.miniCurso img{
+    width: 12px;
+    margin-left: 25px;
+}
+
+.miniCurso{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+/*Projetos Pessoais*/
+
+.projetosPessoais h3{
+    color: black;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.projetosPessoais .underline{
+    text-decoration: underline;
+    color: #007bff;
+
+
+}
+
+
+.projetosPessoais p{
+    margin: 0;
+}
+
+.projetosPessoais ul{
+    margin-top: 0;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.projetosPessoais .projetosTecnologias h3{
+    margin-top: 0;
+}
+
+.projetosPessoais .projetosTecnologias{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.projetosPessoais .links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 5px;
+}
+
+.projetosPessoais .linksBotao{
+    padding: 5px 10px;
+    background-color: #27ae60;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.projetosPessoais .links a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.projetosPessoais .links a:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.2);
+    background-color: #2a8a52;
+}
+
+/*
+Competências
+*/
+.codigo{
+    display: flex;
+    gap: 20px;
+}
+
+.ferramentas{
+    border-top: 1px dashed #555555 ;
+    display: flex;
+    gap: 20px;
+}
+
+.codigo p{
+    margin-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid #555555;
+}
+
+.ferramentas p{
+    padding-left: 5px;
+    padding-right: 5px;
+    border-bottom: 1px solid #555555;
+}
+
+/*Pontos Fortes*/
+
+.pontosFortes h4{
+    font-weight: bold;
+    color: #000000;
+    font-size: 1.4rem;
+}
+
+.iconTexto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pontosFortes h2{
+    margin-bottom: 0;
+}
+
+.pontosFortes p{
+    margin-top: 0;
+    padding-left: 35px;
+}
+
+@media (min-width:1024px){
+    h1{
+        font-size: 3.6rem;
+        font-weight: bold;
+    }
+
+    h2{
+        font-size: 2.2rem;
+        font-weight: bold;
+
+    }
+
+    h3{ 
+        font-size: 2rem;
+        color: #007bff;
+    }
+
+    h4, a{
+        font-size: 1.6rem;
+        color: #444;
+    }
+
+    p{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        color: #444;
+    }
+
+    /*
+    Menu Topo
+    */
+
+    .dadosPessoais{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-right: 300px;
+    }
+    .dadosPessoais a{
+    font-size: 1.6rem;
+    }
+
+    .dadosPessoais h4{
+        font-size: 1.6rem;
+        display: flex;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .dadosPessoais h4 img{
+        width: 17px;
+    }
+
+    /*
+    Dividir as colunas
+    */
+
+    .container{
+        display: flex;
+        gap: 50px;
+    }
+
+    .ladoEsquerdo{
+        flex: 2;
+    }
+
+    .ladoDireito{
+        flex: 1;
+    }
+
+    /*
+    Competências
+    */
+
+    .projetosPessoais ul{
+    font-size: 1.6rem;
+    }
+
+    .codigo{
+        gap: 50px;
+    }
+
+    .ferramentas{
+        gap: 50px;
+    }
+
+    /*Pontos Fortes*/
+
+    .pontosFortes h4{
+        font-size: 1.6rem;
+    }
+    .pontosFortes p{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 35px;
+    }
+}
